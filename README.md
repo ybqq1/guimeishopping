@@ -16,7 +16,7 @@ html在这几个页面都存在，属于body的部分。如果需要修改head�
 <br>
  
  
-<b>2. css</b>
+<b><h3>2. css</h3></b>
 
 css部分在css文件夹里的几个css文件, 默认用styles写。都是对标签默认值进行了格式化。
 
@@ -24,7 +24,7 @@ css部分在css文件夹里的几个css文件, 默认用styles写。都是对标
 <br>
 <br>
 
-<b>3. javascript</b>
+<b><h3>3. javascript</h3></b>
 
 
 javascript的部分是在js文件里，比如有login.js
@@ -32,7 +32,7 @@ javascript的部分是在js文件里，比如有login.js
 <br>
 <br>
 
-<b>4. jquery</b>
+<b><h3>4. jquery</h3></b>
 
 jquery的部分也是在在js文件夹里，注意要导入插件，比如jquery.min.js。min的意思就是压缩的意思，这个是在网上下载的，也可直接从网上在线导入。
 在这里是比如index页面的轮播图。
@@ -41,7 +41,7 @@ jquery的部分也是在在js文件夹里，注意要导入插件，比如jquery
 <br>
 <br>
 
-<b>5. 其他文件</b>
+<b><h3>5. 其他文件</h3></b>
 
 比如img文件，是穿插在各个需要的html页面的。
 <br>
