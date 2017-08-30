@@ -7,7 +7,7 @@
 <br>
 <br>
 
-1. HTML
+<b>1. HTML</b>
 
 html在这几个页面都存在，属于body的部分。如果需要修改head，请前往head.html.
 
