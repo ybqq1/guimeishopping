@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/hf.css">
+  <link rel="stylesheet" type="text/css" href="css/register.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/register.js"></script>
+</style>
+ </head>
+ <body>
+ <!--头部div-->
+ <iframe src="header.html" scrolling="no" frameborder="0" width="100%">
+ </iframe>
+
+ <!--中部div-->
+ <div id="middle">
+		<form action="login.html" method="post" id="#regUser">
+			<table border="1">
+				<tr>
+					<td width="250px" align="right" >姓名:</td>
+					<td width="400px"><input type="text" name="name" id="yourname" placeholder="请输入您的姓名"> &nbsp;<span id="usercue1"></span></td>
+					<td rowspan="10" > <img src="img/read.gif"> &nbsp;<font style="font-size:16px">阅读贵美网服务协议<font><br><textarea name="quyu" rows="19" cols="30" align="center" readonly="readonly">
+	   欢迎阅读服务条款协议，本协议阐述之条款和条件适用于您使用Gmgw.com网站的各种工具和服务。
+  本服务协议双方为贵美与贵美网用户，本服务协议具有合同效力。 
+  贵美的权利和义务
+    1.贵美有义务在现有技术上维护整个网上交易平台的正常运行，并努力提升和改进技术，使用户网上交易活动的顺利。 
+    2.对用户在注册使用贵美网上交易平台中所遇到的与交易或注册有关的问题及反映的情况，贵美应及时作出回复。 
+    3.对于在贵美网网上交易平台上的不当行为或其它任何贵美认为应当终止服务的情况，贵美有权随时作出删除相关信息、终止服务提供等处理，而无须征得用户的同意。 
+    4.因网上交易平台的特殊性，贵美没有义务对所有用户的注册资料、所有的交易行为以及与交易有关的其他事项进行事先审查。	
+	   </textarea></td>
+				</tr>
+				<tr>
+					<td align="right">登录名:</td>
+					<td><input type="text" name="username" id="username" placeholder="请输入您的用户名"> &nbsp;<span id="usercue2">（可包含a-z，0-9和下划线）</span></td>
+				</tr>
+				<tr>
+					<td align="right">密码:</td>
+					<td id="tdd"><input type="password" name="password" id="psw" placeholder="请输入登录密码"> &nbsp;<span id="usercue3">（至少包含6个字符）</span></td>
+				</tr>
+				<tr>
+					<td align="right">再次输入密码:</td>
+					<td><input type="password" name="password" id="repsw" placeholder="请确认您的密码"> &nbsp;<span id="usercue4"></span></td>
+				</tr>
+				<tr>
+					<td align="right">电子邮箱:</td>
+					<td><input type="text" name="mail box" id="mail" placeholder="请输入您的电子邮箱"> &nbsp;<span id="usercue5"></span></td>
+				</tr>
+				<tr>
+					<td align="right">性别:</td>
+					<td><input type="radio" name="sex" id="sex" checked="checked"><img src="img/Female.gif">女&nbsp;&nbsp<input type="radio" name="sex"><img src="img/male.gif">男</td>
+				</tr>
+				<tr>
+					<td align="right">头像:</td>
+					<td><input type="file" name="pic" width="30px" id="pic"></td>
+				</tr>
+				<tr>
+					<td align="right"> 爱好:</td>
+					<td>
+					<input type="checkbox" checked="checked"checked="checked">运动
+					<input type="checkbox">聊天
+					<input type="checkbox">玩游戏
+					</td>
+				</tr>
+				<tr>
+					<td align="right">出生日期:</td>
+					<td><input type="text" placeholder="请输入出生年月日">
+						
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+					<input type="submit" class="submit" value="" > 
+					<input type="reset" class="reset" value="">
+					</td>
+				</tr>
+			</table>
+		</form>
+
+ </div>
+
+ 
+ 
+ <!--尾部div-->
+ <iframe src="footer.html" scrolling="no" frameborder="0" width="100%" height="300px">
+ </iframe>
+
+	
+ </body>
+</html>

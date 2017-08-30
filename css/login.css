@@ -1,0 +1,21 @@
+#login-body{width:978px;height:440px;background:url('../img/login_bg.gif')no-repeat;margin-top:-15px;position:relative;}
+#pic1{top:10%;left:4%;position:absolute}
+#login{left:15%;top:25%;width:400px;height:110px;font-size:12px;position:absolute}
+.submit{background:url('../img/login.gif') no-repeat; width:80px;height:35px;left:20%;border-radius:15px;position:absolute}
+#content{width:45%;height:25%;top:55%;left:10%;position:absolute;font-size:12px}
+#content a{color:black;}
+#content a:hover{color:red}
+#body-right{width:38%;height:85%;position:absolute;top:10%;left:62%;}li{list-style:none;font-size:12px} span{font-size:14px;color:blue} .picc{margin-left:13%}
+#body-right a{text-decoration:none}
+.pic{background:url('../img/icon.gif')no-repeat;width:300px;height:40px;line-height:40px;padding-left:40px;}
+.pic1{background-position:0 -120px;}
+.pic2{background-position:0 -160px;}
+.pic3{background-position:0 -200px;}
+.pic4{background-position:0 -240px;}
+.pic5{background-position:0 -280px;}
+.pic6{background-position:0 -320px;z-index:57}
+#ull{width:250px;height:70px;background:#FDF7E7;border:1px #F2BB6F solid;left:10%;margin-top:3%;position:absolute}
+#ull li{border:1px #F5DCBC solid;background:#fff;width:165px;height:24px;line-height:26px;margin:6px 0 0 23px}
+#ull a:hover{color:#F5DCBC}
+
+

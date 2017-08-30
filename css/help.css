@@ -1,0 +1,14 @@
+﻿#main{width:978px;height:570px;position:relative;margin-top:-15px;}
+#main-pic{width:183px;height:550px;background:url('../img/customer.jpg')no-repeat;position:absolute}
+li{list-style:none;}#main-pic a{text-decoration:none}
+#main-pic ul{padding-top:170px;text-align:center}
+#main-pic p{color:#181EF6;font-size:16px;}
+#buy,#sale,#p1,#p2,#p3{display:none}
+h2{font:24px 宋体 black;margin:35px 0 0 20px}
+#reg-content {margin:20px 0 0 20px;font-size:16px} 
+#reg-content a{text-decoration:none;color:#551A8B}
+#reg-content a:hover{color:red};
+#buy-content{margin:20px 0 0 20px;font-size:16px}
+.help_ful{width:778px;height:550px;border:1px solid red;left:20.3%;position:absolute}
+#buy p{position:absolute;margin-left:20px;font-size:16px}
+#sale p{position:absolute;margin-left:20px;font-size:16px}

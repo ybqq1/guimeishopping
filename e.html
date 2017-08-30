@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <style>
+  #acterxt{cursor:pointer}
+  </style>
+  <title>Document</title>
+ </head>
+ <body>
+  <span id="actext">js文字闪烁</span>
+ 
+ 
+
+<script type="text/javascript">
+var i = 0;
+
+function getColor(){
+ i++;
+ switch(i){ 
+  case 1:return "red";
+  case 2:return "pink";
+  case 3:return "green";
+  default:return "black";
+ }
+}
+
+function colorful(){
+ var o =document.getElementById('actext');
+ o.style.color=getColor();
+ if(i==3){i=0}
+ setTimeout('colorful()',200);
+}
+
+colorful(); 
+
+</script>
+
+
+
+
+ </body>
+</html>

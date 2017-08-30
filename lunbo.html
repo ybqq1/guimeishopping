@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  
+  <style>
+  #body-pic{height:190px;position:absolute;width:524px}
+	.ig{position:absolute}
+	*{padding:0;margin:0}
+	.btn{position:absolute;background:rgba(0,0,0,0.5);width:15px;height:30px;color:white;line-height:30px;top:50%;margin-top:-15px;cursor:pointer}
+	.btn2{left:100%;margin-left:-15px}
+	.tabs{position:absolute;cursor:pointer;top:100%;margin-top:-30px;left:50%;margin-left:-40px;}
+	.btn3{position:absolute;background:url('img/arrow01.png'); background-position:-34px -330px;margin-top:50px;width:15px;height:23px;cursor:pointer;}
+	.tab{float:left;text-align:center;width:20px;height:20px;margin-left:5px;background:pink;border-radius:100%}
+	.bg{background:red }
+  </style>
+  <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <title>Document</title>
+ </head>
+ <body>
+ <script>
+	var i=0;
+	var timer;
+	$(document).ready(function(){
+	$('.ig').eq(0).show().siblings().hide();
+	showTime();
+	$('.tab').hover(function(){
+	i=$(this).index();
+	show();
+	clearInterval(timer);
+	},function(){
+	showTime();
+	});
+	$('.btn3').click(function(){
+	clearInterval(timer);
+	if(i==0){
+	i=4;
+	}
+	i--;
+	show();
+	showTime();
+	});
+	$('.btn1').click(function(){
+	clearInterval(timer);
+	if(i==0){
+	i=4;
+	}
+	i--;
+	show();
+	showTime();
+	});
+	$('.btn2').click(function(){
+	clearInterval(timer);
+	if(i==3){
+	i=-1;
+	}
+	i++;
+	show();
+	showTime();
+	});
+	});
+
+
+
+
+
+	
+	function showTime(){
+	timer=setInterval(function(){
+		i++;
+		if(i==4){
+		i=0;
+		}
+		show();
+	},4000);
+	};
+
+
+
+
+	function show(){
+	$('.ig').eq(i).show().siblings().hide();
+	$('.tab').eq(i).addClass('bg').siblings().removeClass('bg');
+	};
+
+
+	</script>
+
+
+  <div id="body-pic">
+		<div class="picz">
+			<div class="ig ig1"><img src="img/ad-01.jpg"></div>
+			<div class="ig ig2"><img src="img/ad-02.jpg"></div>
+			<div class="ig ig3"><img src="img/ad-03.jpg"></div>
+			<div class="ig ig4"><img src="img/ad-04.jpg"></div>
+		</div>
+			<div class="btn btn1"> < </div><div class="btn btn2"> > </div>
+			<div class=" btn3"> </div>
+		<div class="tabs ">
+			<div class="tab bg">1</div>
+			<div class="tab">2</div>
+			<div class="tab">3</div>
+			<div class="tab">4</div>
+		</div>
+	</div>
+ </body>
+</html>

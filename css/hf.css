@@ -1,0 +1,21 @@
+﻿*{margin:0;padding:0}
+div{margin:0 auto}
+#head a{text-decoration:none;color:black}
+#head{background:url('../img/h_bg.jpg') no-repeat;height:130px;width:978px;position:relative}
+#menu{width:455px;height:30px;margin-left:516px;line-height:30px;font:12px/28px 宋体;padding-top:7px} 
+#head li{list-style:none;float:left}
+#welcome{width:400px;position:absolute;top:50%;left:59%;font-size:12px}
+.txt,.btn{text-align:center;padding:0px 6px}
+.pic{background:url('../img/icon.gif');width:28px;height:28px}
+.pic1{background-position:0px 0px}
+.pic2{background-position:-40px 0px}
+.pic3{background-position:-80px 0px}
+.pic4{background-position:-120px 0px}
+.btn{background-position:0 -25px;width:36px;}
+#navigation{margin-top:60px}
+#navigation li{font:16px/34px bold 楷体;text-align:center;width:84px}
+#navigation a{line-height:30px}
+#navigation a:hover{background:url('../img/nav_bg.gif')}
+p{text-align:center;font-size:12px;}
+hr{width:978px;margin:0 auto}
+
