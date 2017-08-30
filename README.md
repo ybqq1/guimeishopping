@@ -7,7 +7,7 @@
 <br>
 <br>
 
-<h3><b>1. HTML</b><h3>
+<b><h3>1. HTML<h3></b>
 
 html在这几个页面都存在，属于body的部分。如果需要修改head，请前往head.html.
 
