@@ -6,25 +6,28 @@
 <br>
 <br>
 
-<p font-size="20px">1. HTML</p>
+1. HTML
 
 html在这几个页面都存在，属于body的部分。如果需要修改head，请前往head.html.
 
-
+<br>
+<br>
  
  
  2. CSS
 
 css部分在css文件夹里的几个css文件, 默认用styles写。都是对标签默认值进行了格式化。
 
-
+<br>
+<br>
 
 
 3. javascript
 
 
 javascript的部分是在js文件里，比如有login.js
-
+<br>
+<br>
 
 
 4. jquery
@@ -33,11 +36,17 @@ jquery的部分也是在在js文件夹里，注意要导入插件，比如jquery
 在这里是比如index页面的轮播图。
 
 
-
+<br>
+<br>
 
 5. 其他文件
 
 比如img文件，是穿插在各个需要的html页面的。
-
-
+<br>
+<br>
+# Todo
+需要将index页面的商品类加上去，只需要个table标签和一些img还有li标签布局下即可。
+还有register页面需要ajax进行验证，目前没有后台的支持就没有做。
+<br>
+<br>
 浏览：https://github.com/ybqq1/guimeishopping     这个网址也是可以看到的：http://118.194.50.25:8087/view/gm/login.html
